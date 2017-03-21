@@ -1,6 +1,6 @@
 const test = require('tape');
 
-test('Initialise testing', (t) => {
+test('Router testing', (t) => {
   t.ok(true, 'Test should pass');
   t.end();
 });
