@@ -1,0 +1,30 @@
+{
+  "name": "on-the-go",
+  "version": "1.0.0",
+  "description": "News on the go",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node tests/ | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiotrBerebecki/on-the-go.git"
+  },
+  "keywords": [
+    "news"
+  ],
+  "author": "Piotr Berebecki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PiotrBerebecki/on-the-go/issues"
+  },
+  "homepage": "https://github.com/PiotrBerebecki/on-the-go#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "shot": "^3.4.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  }
+}
